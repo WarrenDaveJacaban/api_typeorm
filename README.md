@@ -1,2 +1,1 @@
-# WARREN DAVE JACABAN   
-# Node.js
+API TypeOrm by Gabato, Claire Ann C.
