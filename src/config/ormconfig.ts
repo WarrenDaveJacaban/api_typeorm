@@ -6,7 +6,7 @@ export const AppDataSource = new DataSource({
     host: "localhost",
     port: 3306,
     username: "root",
-    password: "Daemon",
+    password: "",
     database: "node_mysql_crud_api",
     entities: [User], // ✅ Ensure this is correct
     synchronize: true, // ✅ This forces table creation

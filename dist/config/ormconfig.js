@@ -8,7 +8,7 @@ exports.AppDataSource = new typeorm_1.DataSource({
     host: "localhost",
     port: 3306,
     username: "root",
-    password: "Daverly*24",
+    password: "",
     database: "node_mysql_crud_api",
     entities: [User_1.User], // ✅ Ensure this is correct
     synchronize: true, // ✅ This forces table creation

@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import express from "express";
-import { AppDataSource } from "./config/ormconfig";
+import { AppDataSource } from "../src/config/ormconfig";
 import userRoutes from "./routes/users.routes"; // ✅ Import routes
 
 const app = express();
